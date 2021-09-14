@@ -15,6 +15,7 @@ import { ResumeComponent } from './resume/resume.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'resume', component: ResumeComponent },
     ])
   ],
   declarations: [
